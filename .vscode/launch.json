@@ -5,13 +5,50 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Django",
+            "name": "Run server",
             "type": "python",
             "request": "launch",
             "program": "manage.py",
-            "cwd": "${workspaceFolder}/Student/03/Superhero",
+            "cwd": "${workspaceFolder}/14/SoftwarePlanner",
             "args": [
-                "runserver"
+                "runserver",
+                "8002"
+            ],
+            "django": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Django Test",
+            "type": "python",
+            "request": "launch",
+            "program": "manage.py",
+            "cwd": "${workspaceFolder}/14/SoftwarePlanner",
+            "args": [
+                "test"
+            ],
+            "django": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Quick Test",
+            "type": "python",
+            "request": "launch",
+            "program": "manage.py",
+            "cwd": "${workspaceFolder}/14/SoftwarePlanner",
+            "args": [
+                "plan"
+            ],
+            "django": true,
+            "justMyCode": true
+        },
+        {
+            "name": "Get Pages",
+            "type": "python",
+            "request": "launch",
+            "program": "manage.py",
+            "cwd": "${workspaceFolder}/14/SoftwarePlanner",
+            "args": [
+                "pages"
             ],
             "django": true,
             "justMyCode": true
