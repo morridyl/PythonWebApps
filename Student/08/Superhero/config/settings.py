@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     # Third-party
     'crispy_forms',
+    'crispy_bootstrap4',
 
     # My apps
     'superhero',
