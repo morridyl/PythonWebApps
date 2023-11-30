@@ -44,8 +44,6 @@ INSTALLED_APPS = [
 
     # My apps
     'photos',
-
-    'crispy_bootstrap4',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
